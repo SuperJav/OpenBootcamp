@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(94, 144, 188);
+    min-height: 100vh;
+    display: flex;
+    gap: 5em;
+}
+.lateral{
+    background-color: aqua;
+    padding: 0px 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.section-derecha{
+    background-color: bisque;
+    width: 20em;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 50px;
+    height: 200px;
+}
+@media screen and (max-width:640px) {
+    .container{
+        flex-direction:column;
+    }
+    .lateral{
+        flex-direction: row;
+        padding: 10px;
+    }
+}
