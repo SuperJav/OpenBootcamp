@@ -1,0 +1,12 @@
+{
+  "name": "tarea-1",
+  "version": "1.0.0",
+  "description": "En este proyecto, mostraremos un mensaje por consola solamente.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
