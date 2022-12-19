@@ -1,0 +1,12 @@
+{
+  "name": "tarea-2",
+  "version": "1.0.0",
+  "description": "Programa para ver la descricion de mi y mi libro favorito.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
