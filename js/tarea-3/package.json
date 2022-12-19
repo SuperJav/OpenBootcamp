@@ -1,0 +1,12 @@
+{
+  "name": "tarea-3",
+  "version": "1.0.0",
+  "description": "tenemos tres archivos JS que permite buscar el factor del numero 10 con diferente bucles.",
+  "main": "factorial-for.js",
+  "scripts": {
+    "start": "node factorial-for.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
