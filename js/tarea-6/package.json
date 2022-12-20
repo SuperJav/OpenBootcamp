@@ -1,0 +1,12 @@
+{
+  "name": "tarea-6",
+  "version": "1.0.0",
+  "description": "programa para interatuar con los arrays y sus metodos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javi super",
+  "license": "ISC"
+}
