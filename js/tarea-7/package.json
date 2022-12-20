@@ -1,0 +1,12 @@
+{
+  "name": "tarea-7",
+  "version": "1.0.0",
+  "description": "Programas para crear declarar set y manipular el Date.",
+  "main": "conjuntos.js",
+  "scripts": {
+    "start": "node conjuntos.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
