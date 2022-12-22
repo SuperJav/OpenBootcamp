@@ -21,7 +21,7 @@ const logger = winston.createLogger({
     new winston.transports.File({ filename: 'combined.log' }),
   ],
 });
-
+    
 logger.info({
     level: "info",
     message: "Hola javielito, esto es un error."
