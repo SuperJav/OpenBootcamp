@@ -1,0 +1,11 @@
+{
+  "name": "tarea-14",
+  "version": "1.0.0",
+  "description": "Programa para crear una clase estudiante.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
