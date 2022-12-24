@@ -1,0 +1,15 @@
+{
+  "name": "tarea-17",
+  "version": "1.0.0",
+  "description": "Programa para utilizar Jquery.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": " http-server ."
+  },
+  "author": "Javi Super",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
