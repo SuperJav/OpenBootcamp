@@ -1,0 +1,11 @@
+{
+  "name": "tarea-16",
+  "version": "1.0.0",
+  "description": "Empezando a utilizar EsLint.",
+  "main": "index.js",
+  "scripts": {
+   "start": "node index.js"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
