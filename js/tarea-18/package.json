@@ -1,0 +1,12 @@
+{
+  "name": "tarea-18",
+  "version": "1.0.0",
+  "description": "Programa para trabajar con las cookis.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Javi Super",
+  "license": "ISC"
+}
