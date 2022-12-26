@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drad and Drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="seccion">
+            <p class="parrafo" draggable="true" ondragstart="fase1(event)" id="parrafo-1">1. Primero</p>
+            <p class="parrafo" draggable="true" ondragstart="fase1(event)" id="parrafo-2">2. Segundo</p>
+        </div>
+        <div class="seccion">
+            <p class="parrafo" draggable="true" ondragstart="fase1(event)" id="parrafo-3">3. Tercero</p>
+            <p class="parrafo" draggable="true" ondragstart="fase1(event)" id="parrafo-4">4. Cuarto</p>
+        </div>
+        <div class="imagen-fantasma"></div>
+        <div id="basura">
+            <span class="material-icons" id="icono_basura"  ondragover="fase2(event);" ondrop="fase3(event);">
+                <img id="icon-delete" src="images.jpg" alt="icon-delete">
+                    <span class="text-delete">delete</span>
+                </img>
+            </span>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
