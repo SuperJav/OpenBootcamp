@@ -12,7 +12,7 @@ class InfoPersona extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main">
         <div className="container">
             <h1>{`${this.props.name} ${this.props.lastName}`}</h1>
             <h2>{this.props.email}</h2>

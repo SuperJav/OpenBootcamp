@@ -26,7 +26,8 @@
 .cotainer ,*{
   font-weight: 100;
 }
-.container:hover{
+
+.main:hover .container{
   animation-name: animacion;
   animation-duration:5s;
   animation-iteration-count: infinite;
