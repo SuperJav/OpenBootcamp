@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(47, 42, 42);
+}
+.container{
+  background-color: #ebedf3;
+  width: 50vw;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgb(38, 0, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.cotainer ,*{
+  font-weight: 100;
+}
+.container:hover{
+  animation-name: animacion;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode:forwards;
+  
+}
+
+@keyframes animacion{
+  0%{
+    background-color: #d5d7db;
+    margin-left: 80px;
+    transform: rotateY(150deg);
+  }
+  25%{
+    color: transparent;
+    background-color: #a1abad;
+    margin-left: 100px;
+  }
+  50%{
+    color: transparent;
+    background-color: #3e3b18d1;
+    margin-left: 150px;
+  }
+  75%{
+    color: transparent;
+    background-color: #6e11810a;
+    margin-left: 200px;
+    background-image: url("./imgs/logo-super-javi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  100%{
+    color: transparent;
+    background-color:#020d25;
+    background-image: url("./imgs/logo-super-javi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+  }
+}
