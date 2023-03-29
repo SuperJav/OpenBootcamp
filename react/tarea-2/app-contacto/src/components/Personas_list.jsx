@@ -9,7 +9,7 @@ import Person from "./Person"
     const persona2= new Persona(2,"Onguito","Mendoza Perez","829-222-1233","onguito123@hotmail.com",false);
     const persona3= new Persona(4,"Hanna","Santana Ramos","809-224-201","Hanna05@gmail.com",true);
     const persona4= new Persona(6,"Jose","Ramoz perez","829-345-4333","Jose123@hotmail.com",true);
-    const persona5= new Persona(8,"pablo","Hugo manzanillo","829-221-1233","pablo123@hotmail.com",false);
+    const persona5= new Persona(7,"Anna","Zamora","829-221-1233","Anna123@hotmail.com",false);
     const persona6= new Persona(9,"Heidy","Santana Ramos","809-224-5675","Heidy05@gmail.com",true);
     const listPerson=[persona1,persona2,persona3,persona4,persona5,persona6]
     const [persona, setPersona] = useState(listPerson)
@@ -29,9 +29,6 @@ import Person from "./Person"
                             setPersona(array)
             }
     }
-
-
-   
     // Challeger of state contacto of active or deactivate
     function activeContacto(index){
         const onlyPerson=persona.indexOf(index)
