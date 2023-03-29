@@ -1,0 +1,24 @@
+img{
+    width: 30%;
+}
+
+.container-avatar div{
+    margin-right: -100px;  
+}
+
+.contacto:hover{
+    background-color: #525252c4;
+}
+
+i{
+    margin-left: 1em;
+}
+@media screen and (max-width:800px){
+    img{
+        width: 20%;
+    }
+    .container-avatar div{
+        margin-right: -110px;  
+    }
+
+}

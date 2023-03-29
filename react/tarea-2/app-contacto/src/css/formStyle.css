@@ -1,0 +1,51 @@
+#icon-add-contact{
+    width: 50%; 
+}
+.place::placeholder{
+    color: #c6dcf1;
+}
+.place{
+    background-color: #c6dcf147;
+    color: azure;
+}
+.place:focus{
+    background-color: #c6dcf147;
+    color: azure;
+}
+hr{
+    box-shadow: 0px 10px 5px azure;
+}
+.select-avatar{
+    width: 5em;
+    margin: 1em;
+    padding: 0.5em;
+    background-color: #0b131b;
+    border-radius: 5px;
+}
+.select-avatar:hover{
+    background-color: #c6dcf1;
+}
+.select-avatar:active{
+    background-color: aqua;
+}
+#Modal{
+    background-color: #212529f9;
+    border-color: #c6dcf1;
+    border-radius: 5px;
+    box-shadow: #c6dcf14b 5px 5px 20px ;
+    width: 50%;
+    position: fixed;
+    top: 5rem;
+}
+#Modal h4{
+    color:#c6dcf1;
+}
+@media screen and (max-width:700px) {
+    .contenedor{
+        font-size: small;
+    }
+    /* .contenedor input{
+        font-size: 5px;
+    } */
+
+}
